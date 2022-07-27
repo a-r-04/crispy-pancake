@@ -17,3 +17,17 @@ function generatePassword(){
 
 
 }
+function copyPass1(){
+    
+    const clipBoardContent = document.getElementById("password-1").textContent
+    navigator.clipboard.writeText(clipBoardContent)
+    // alert("password copied to clipboard!")
+      
+}
+function copyPass2(){
+    
+    const clipBoardContent = document.getElementById("password-2").textContent
+    navigator.clipboard.writeText(clipBoardContent)
+    // alert("password copied to clipboard!")
+      
+}
