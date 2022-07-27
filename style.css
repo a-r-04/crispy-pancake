@@ -12,12 +12,11 @@ body{
 
 }
 .container{
-    height: 70%;
-    width: 40%;
+    height: 450px;
+    width: 600px;
     background-color: #ECFDF5;
     border-radius: .25rem;
-    margin: 20%;
-    padding: 7% 3%;
+    padding: 80px 60px;
     font-family: 'Karla', sans-serif;
     font-weight: 600;
     line-height: 28px;
@@ -68,3 +67,17 @@ hr{
     border: none;
 
 }
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 80%;
+        padding: 15% 8%;
+
+    }
+    .passwd{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+  }
+  
