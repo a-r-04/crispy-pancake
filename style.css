@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    height: 70%;
+    width: 40%;
+    background-color: #ECFDF5;
+    border-radius: .25rem;
+    margin: 20%;
+    padding: 7% 3%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.h1{
+    color: #2B283A;
+}
+.h2{
+    color: #10B981;
+}
+h4{
+    color: #6B7280;
+    font-weight: 400;
+}
+.btn{
+    background-color: #10B981;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: .25rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+hr{
+    margin-top: 38px;
+    border-top: 1px solid #D5D4D8;
+}
+.passwd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pass {
+    height: 38px;
+    width: 200px;
+    background-color: #273549;
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: .25rem;
+    color: #5DEF92;
+    cursor: pointer;
+    border: none;
+
+}
