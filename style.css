@@ -68,6 +68,11 @@ hr{
 
 }
 
+p{
+    color: #6B7280;
+    font-size: 15px;
+}
+
 @media screen and (max-width: 500px) {
     .container{
         width: 80%;
