@@ -24,22 +24,25 @@ body{
 }
 .h1{
     color: #2B283A;
+    font-size: 170%;
 }
 .h2{
     color: #10B981;
+    font-size: 170%;
 }
 h4{
     color: #6B7280;
     font-weight: 400;
+    font-size: 84%
 }
 .btn{
     background-color: #10B981;
-    height: 40px;
-    width: 200px;
+    height: 10%;
+    width: 63%;
     border: none;
     border-radius: .25rem;
     color: white;
-    font-size: 1rem;
+    font-size: 87%;
     font-weight: bold;
     cursor: pointer;
     
@@ -54,8 +57,8 @@ hr{
     justify-content: space-between;
 }
 .pass {
-    height: 38px;
-    width: 200px;
+    height: 2rem;
+    width:63%;
     background-color: #273549;
     margin-top: 38px;
     display: flex;
@@ -86,4 +89,10 @@ p{
         /* align-items: center; */
     }
    }
-  
+/* @media screen and (max-width: 4px) {
+
+    .container{
+        background-color: #10B981;
+    }
+   }
+   */
